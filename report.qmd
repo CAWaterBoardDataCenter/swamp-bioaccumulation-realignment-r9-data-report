@@ -1,0 +1,203 @@
+---
+format:
+  docx:
+    toc: false
+---
+
+![](images/wb-swamp-logos.png){fig-alt="Logo for the State Water Resources Control Board and Regional Water Quality Control Boards (Water Boards) (left) and Surface Water Ambient Monitoring Program (SWAMP) (right)" fig-align="center" width="4.87in"}
+
+# Surface Water Ambient Monitoring Program: Bioaccumulation Monitoring Program Realignment
+
+# Data Report for the San Diego Region
+
+**TBD 2024**
+
+{{< pagebreak >}}
+
+# Acknowledgements
+
+This Data Report was prepared by the Surface Water Ambient Monitoring Program (SWAMP) and the San Diego Regional Water Quality Control Board (R9) as part of the SWAMP Bioaccumulation Monitoring Program's Realignment efforts in the San Diego Region. The development of this Report was guided by the San Diego Region Realignment Advisory Committee.
+
+**San Diego Region Realignment Advisory Committee Members:**
+
+-   Lisa Cumper, Jamul Indian Village
+-   Shasta Gaughen and Heidi Brow, Pala Band of Mission Indians
+-   Kelcey Stricker and Tiffany Wolfe, Pechanga Band of Luiseño Indians
+-   Cristina Torres and Arash Afghahi, Viejas Band of Kumeyaay Indians
+-   Sherri Norris, California Indian Environmental Alliance (CIEA)
+-   Jill Sherman-Warne, Native American Environmental Protection Coalition (NAEPC)
+-   José Bravo, Just Transition Alliance
+-   Ray Hiemstra, Orange County Coastkeeper
+-   Mitchell McKay, Citizens for Coastal Conservancy
+-   Matt O'Malley, San Diego Coast Keeper
+-   Emily Fudge, US Forest Service (USFS)
+-   Matthew Lucero, California Department of Fish and Wildlife (CDFW)
+-   Amy Smith, California Department of Public Health (CDPH)
+-   Wesley Smith, Office of Environmental Health Hazard Assessment (OEHHA)
+-   Peter Vroom, California Water Quality Monitoring Council & City of San Diego's Public Utilities Department
+-   Jay Davis, California Water Quality Monitoring Council Safe to Eat Workgroup & San Francisco Estuary Institute (SFEI)
+
+**SWAMP Realignment Team:**
+
+-   Anna Holder, Realignment Lead, SWAMP Bioaccumulation Monitoring Program Coordinator, and Office of Information Management & Analysis Tribal Coordinator
+-   David Gibson, R9 Executive Officer
+-   Melissa Corona, R9 Tribal Coordinator
+-   Chad Loflen, R9 SWAMP Regional Coordinator
+-   Ali Dunn, SWAMP Leader
+-   Mike Antos, Realignment Meeting Facilitator, Stantec
+
+{{< pagebreak >}}
+
+# Table of Contents
+
+::: callout-important
+Add & format in MS Word once everything else is final, and before PDFing
+:::
+
+{{< pagebreak >}}
+
+# Acronyms and Abbreviations
+
+The below table defines acronyms and abbreviations that are used throughout this document.
+
+::: callout-important
+Review list before finalizing and add/remove rows as needed
+:::
+
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| **Acronym or Abbreviation** | **Definition**                                                                                                                    |
++=============================+===================================================================================================================================+
+| CDPH                        | [C]{.underline}alifornia [D]{.underline}epartment of [P]{.underline}ublic [H]{.underline}ealth                                    |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| CEDEN                       | [C]{.underline}alifornia [E]{.underline}nvironmental [D]{.underline}ata [E]{.underline}xchange [N]{.underline}etwork              |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| Committee                   | San Diego Region Realignment Advisory [Committee]{.underline}                                                                     |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| DIT                         | Water Board's [D]{.underline}ivision of [I]{.underline}nformation [T]{.underline}echnology                                        |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| OC pesticides               | Organochlorine ([OC]{.underline}) [pesticides]{.underline}                                                                        |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| OEHHA                       | California [O]{.underline}ffice of [E]{.underline}nvironmental [H]{.underline}ealth [H]{.underline}azard [A]{.underline}ssessment |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| OPP                         | Water Board's [O]{.underline}ffice of [P]{.underline}ublic [P]{.underline}articipation                                            |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| PBDEs                       | [P]{.underline}oly[b]{.underline}rominated [D]{.underline}iphenyl [E]{.underline}thers                                            |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| PCBs                        | [P]{.underline}oly[c]{.underline}hlorinated [B]{.underline}iphenyls                                                               |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| PFAS                        | [Perf]{.underline}luoro[a]{.underline}lkyl and [polyf]{.underline}luoro[a]{.underline}lkyl [s]{.underline}ubstances               |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| Program                     | SWAMP Bioaccumulation Monitoring [Program]{.underline}                                                                            |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| QAPP                        | [Q]{.underline}uality [A]{.underline}ssurance [P]{.underline}roject [P]{.underline}lan                                            |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| Regional Boards             | Nine [Regional]{.underline} Water Quality Control [Boards]{.underline} in California:                                             |
+|                             |                                                                                                                                   |
+|                             | -   Region 1: North Coast Region                                                                                                  |
+|                             | -   Region 2: San Francisco Bay Region                                                                                            |
+|                             | -   Region 3: Central Coast Region                                                                                                |
+|                             | -   Region 4: Los Angeles Region                                                                                                  |
+|                             | -   Region 5: Central Valley Region                                                                                               |
+|                             | -   Region 6: Lahontan Region                                                                                                     |
+|                             | -   Region 7: Colorado River Region                                                                                               |
+|                             | -   Region 8: Santa Ana Region                                                                                                    |
+|                             | -   Region 9: San Diego Region                                                                                                    |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| San Diego Region            | [San]{.underline} [Diego]{.underline} [Region]{.underline}al Water Quality Control Board                                          |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| State Board                 | California [State]{.underline} Water Resources Control [Board]{.underline}                                                        |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| STEW                        | [S]{.underline}afe [t]{.underline}o [E]{.underline}at [W]{.underline}orkgroup                                                     |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| SWAMP                       | [S]{.underline}urface [W]{.underline}ater [A]{.underline}mbient [M]{.underline}onitoring [P]{.underline}rogram                    |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| SWAMP IQ                    | [SWAMP]{.underline} [I]{.underline}nformation Management and [Q]{.underline}uality Assurance Center                               |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| tribe(s)                    | California Native American [Tribe(s)]{.underline}                                                                                 |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| Water Boards                | California State Water Resources Control Board and Regional Water Quality Control Boards, collectively                            |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+
+{{< pagebreak >}}
+
+# Introduction
+
+This document presents a data report for monitoring that took place in 2022/2023 as part of the SWAMP Bioaccumulation Monitoring Program Realignment in the San Diego Region (R9).
+
+``` {#Figure 1: Map of Study Are .R}
+#Create map of study area
+
+#Caption: Figure 1. Sampling locations for San Diego Region Realignment monitoring.
+```
+
+# Methods
+
+A detailed description of the methods for sample collection and chemical analysis is provided in the [Monitoring and Analysis Workplan](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/docs/bioaccumulationprogram-realignment-monitoringanalysisworkplan-r9-20211216.pdf) (Monitoring Plan; Dec 2021). The methods are briefly summarized here, with a focus on information specific to the 2022/23 San Deigo Region Realignment effort.
+
+## Sample Collection
+
+The Monitoring Plan called for collection of fish and shellfish from XX lake or reservoir locations, XX river locations, and XX coastal locations in 2022. XX of these locations were prioritized and were successfully sampled in 2022 (Figure 1). Details of sample collection are provided in the [Cruise Report](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/docs/2023/BioaccumulationProgram_Realignment_CruiseReport_R9_20230307.pdf) (Mar 2023).
+
+## Sample Preparation and Analytical Methods
+
+Samples were processed and distributed to the analytical laboratories as described in the Monitoring Plan by personnel at Moss Landing Marine Laboratories in Moss Landing, CA.
+
+Mercury and selenium were analyzed by Moss Landing Marine Laboratories. Mercury and selenium were analyzed following the method presented in the Monitoring Plan.
+
+PCBs and legacy pesticides were analyzed by Babcock and SGS-Axys (LOCATION). Organochlorine pesticides were analyzed according to USEPA Method 8081A, "Organochlorine Pesticides by Gas Chromatography." PCBs were analyzed according to USEPA Method 8082, "Polychlorinated Biphenyls (PCBs) by Gas Chromatography."
+
+Analytes included in the monitoring, detection limits, as well as numbers of observations and frequencies of detection and reporting, are provided in Table 1. All concentrations are reported on a wet weight basis. Moisture data are available, along with the entire dataset, via the [California Environmental Data Exchange Network](http://www.ceden.org/) (CEDEN).
+
+
+``` {#Table 1: Analytes summary .R}
+#Create table
+
+#Caption: Table 1. Analytes included in the 2019 lakes sampling, detection limits, number of observations, and frequencies of detection and reporting.
+```
+
+
+
+## Data Management
+
+The complete dataset for this study includes quality assurance data (quality control samples and field duplicates) and additional ancillary information (specific location information, fish sex, weights, and other information). The complete dataset is available via [CEDEN](http://www.ceden.org/find_data_page.shtml). The data are also available through...
+
+## Statistical Methods
+
+The measurement of mercury in individual black bass samples provided a foundation for statistical procedures to adjust for the relationship with fish length. A length of 350 mm has been used for length-adjustment of black bass in past studies (e.g., Davis et al. 2008, Melwani et al. 2009, Davis et al. 2010), and represents the middle of the distribution of legal-sized (\>305 mm, or 12 inches) fish that are commonly caught.
+
+Estimates of length-adjusted means presented for the results in this report are based on simple linear regressions of the data for each location. This approach provides an independently-derived estimate of the location mean that can be compared to any other location mean of interest: other location means from the same sampling period; means from the same location in past sampling; or any other location mean of interest. Length-adjusted means prior to 2015 were calculated slightly differently, with the results for multiple lakes pooled for the analysis of covariance (Davis et al. 2018).
+
+## 
+
+
+# Results
+
+## Summary of Fish Collected
+
+A total of XX fish and XX shellfish representing XX and XX species, respectively, were collected from XX lakes, rivers, and coastal areas.
+
+
+``` {#Table 2: Species breakdowns .R}
+
+#Create tables
+
+#Captions (for reference - need to update for this report): 
+
+#Table 2a. Scientific and common names of sport fish species collected in the 2019 monitoring of lakes and reservoirs in California, the number of locations in which they were sampled, numbers of individual or composite samples, their minimum, median, and maximum total lengths (mm), and whether they were analyzed as composites or individuals.
+
+#Table 2b. Scientific and common names of prey fish species collected in the 2019 monitoring of lakes and reservoirs in California, the number of locations in which they were sampled, and their minimum, median, and maximum total lengths (mm).
+
+#Table 2c. Scientific and common names of shellfish species collected in the 2019 monitoring of lakes and reservoirs in California, the number of locations in which they were sampled, and their minimum, median, and maximum total lengths (mm).
+
+```
+
+
+## Mercury
+
+## Organic Contaminants
+
+## Selenium
+
+# Discussion and Next Steps
+
+# References
