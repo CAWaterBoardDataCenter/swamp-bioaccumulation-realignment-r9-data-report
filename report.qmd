@@ -12,6 +12,12 @@ format:
 
 **TBD 2024**
 
+::: callout-important
+Note that the majority of the text below as of 6/7/2023 is a basic copy-paste from the [2019 Lakes Data Report](https://www.waterboards.ca.gov/water_issues/programs/swamp/docs/2022/bioaccumulationmonitoringprogram-lakes-2019-data-report.pdf) and will need to be updated/revised accordingly.
+
+Note that AH will create a [reference word doc](https://quarto.org/docs/output-formats/ms-word-templates.html) that includes accessible formatting
+:::
+
 {{< pagebreak >}}
 
 # Acknowledgements
@@ -124,8 +130,9 @@ Review list before finalizing and add/remove rows as needed
 
 This document presents a data report for monitoring that took place in 2022/2023 as part of the SWAMP Bioaccumulation Monitoring Program Realignment in the San Diego Region (R9).
 
-``` {#Figure 1: Map of Study Are .R}
-#Create map of study area
+```{r}
+#Figure 1: Map of Study Area
+
 
 #Caption: Figure 1. Sampling locations for San Diego Region Realignment monitoring.
 ```
@@ -148,14 +155,12 @@ PCBs and legacy pesticides were analyzed by Babcock and SGS-Axys (LOCATION). Org
 
 Analytes included in the monitoring, detection limits, as well as numbers of observations and frequencies of detection and reporting, are provided in Table 1. All concentrations are reported on a wet weight basis. Moisture data are available, along with the entire dataset, via the [California Environmental Data Exchange Network](http://www.ceden.org/) (CEDEN).
 
+```{r}
+#Table 1: Analytes summary 
 
-``` {#Table 1: Analytes summary .R}
-#Create table
 
 #Caption: Table 1. Analytes included in the 2019 lakes sampling, detection limits, number of observations, and frequencies of detection and reporting.
 ```
-
-
 
 ## Data Management
 
@@ -167,37 +172,145 @@ The measurement of mercury in individual black bass samples provided a foundatio
 
 Estimates of length-adjusted means presented for the results in this report are based on simple linear regressions of the data for each location. This approach provides an independently-derived estimate of the location mean that can be compared to any other location mean of interest: other location means from the same sampling period; means from the same location in past sampling; or any other location mean of interest. Length-adjusted means prior to 2015 were calculated slightly differently, with the results for multiple lakes pooled for the analysis of covariance (Davis et al. 2018).
 
-## 
-
-
 # Results
 
-## Summary of Fish Collected
+## Summary of Fish and Shellfish Collected
 
 A total of XX fish and XX shellfish representing XX and XX species, respectively, were collected from XX lakes, rivers, and coastal areas.
 
+```{r}
+#Table 2: Species breakdowns
 
-``` {#Table 2: Species breakdowns .R}
 
-#Create tables
-
-#Captions (for reference - need to update for this report): 
+#Captions (for reference - need to update for this report):
 
 #Table 2a. Scientific and common names of sport fish species collected in the 2019 monitoring of lakes and reservoirs in California, the number of locations in which they were sampled, numbers of individual or composite samples, their minimum, median, and maximum total lengths (mm), and whether they were analyzed as composites or individuals.
 
 #Table 2b. Scientific and common names of prey fish species collected in the 2019 monitoring of lakes and reservoirs in California, the number of locations in which they were sampled, and their minimum, median, and maximum total lengths (mm).
 
 #Table 2c. Scientific and common names of shellfish species collected in the 2019 monitoring of lakes and reservoirs in California, the number of locations in which they were sampled, and their minimum, median, and maximum total lengths (mm).
-
 ```
 
+::: callout-important
+For the paragraph below this callout:
+
+Do we want to try developing these tables and posting them on the Open Data Portal and linking to them from here instead of or in addition to providing them as an appendix? I am thinking that if folks want to look at the data themselves, it would be much easier to do so via a csv or xlsx rather via this PDF.
+:::
+
+A concise tabular summary of the data for each sampling location is provided in Appendix 1. Data for mercury analyses on individual fish are provided in Appendix 2. Data for PFAS analyses are provided in Appendix 3.
+
+Largemouth bass was the primary sport fish species sampled, with 663 fish collected from 36 lakes. The two other black bass species were collected at fewer lakes: 69 spotted bass were collected from four lakes, and 32 smallmouth bass were collected from one lake. Common carp (90 fish from 12 locations) and redear sunfish (59 fish from seven lakes) were the next most widely sampled species after largemouth bass.
+
+Small prey fish were also sampled. A total of 1436 prey fish representing 15 species were collected from the 41 lakes (Figure 2, Table 2b). A concise tabulated summary of the data for each lake is provided in Appendix 2b. The most commonly sampled prey fish species were bluegill (454 fish from 33 locations) and young largemouth bass (408 fish from 29 locations).
 
 ## Mercury
 
+::: callout-important
+In the lakes report, figures and tables are provided at the end of the report - here I would like to incorporate them into the report, alongside relevant text.
+
+If tables are too long to do that nicely, let's make them an appendix.
+:::
+
+```{r}
+#Figures & associated captions that are usually developed for this section:
+
+#Recommend creating multi-panel figures where appropriate
+#e.g. Figs 3-8 (scatterplots); Figs 9-10 (bar graphs); Figs 11-12 (maps)
+
+#Figure 3. Mercury (ppm wet weight) versus length (mm) for largemouth bass
+#Same graphic for figs 3-5; No captions
+
+
+#Figure 6. Mercury (ppm wet weight) versus length (mm) for smallmouth bass.
+#No caption
+
+#Figure 8. Mercury (ppm wet weight) versus length (mm) for rainbow trout.
+#No caption
+
+#Figure 9. Mercury concentrations by species: sport fish.
+#The points represent the composite and individual concentrations for each species; bars represent means. The orange line on the graph shows the 0.44 ppm OEHHA ATL threshold for no consumption by women. The purple line shows the 0.05 ppm statewide water quality objective for mercury in prey fish.
+
+#Figure 10. Mercury concentrations by species: prey fish.
+#The points represent the composite sample concentrations for each species; the bar is the mean of the composite concentrations. The line shows the 0.05 ppm statewide water quality objective for mercury in prey fish.
+
+#Figure 11. Map of mercury concentrations in largemouth bass. 
+# Thresholds based on ATLs for women over 49 and men. Colors based on mean concentrations adjusted to a length of 350 mm.
+
+#Figure 12. Spatial pattern in mercury concentrations in largemouth bass. 
+#Thresholds based on ATLs for women 18-49 and children 1-17. Colors based on mean concentrations adjusted to a length of 350 mm.
+
+```
+
 ## Organic Contaminants
+
+PCBs were analyzed in 23 composite samples from 14 lakes. Seven different species were analyzed. The reported result was not detected (ND) for all the samples.
+
+Legacy pesticides were analyzed in 12 samples, with all ND for dieldrin and sum of chlordanes, and two detections for sum of DDTs: 29 ppb in a common carp sample from Puddingstone Reservoir and 8 ppb in a common carp sample from Legg Lake.
+
+```{r}
+#Create figures + captions, as needed
+
+```
 
 ## Selenium
 
+Selenium was measured primarily so that future risk assessments can consider risks due to combined exposure to mercury and selenium. However, some samples had concentrations at low levels of concern relative to OEHHA advisory tissue levels (ATLs).
+
+Selenium concentrations were measured in 109 composite samples of sport fish. Concentrations ranged from a minimum of 0.12 ppm to a maximum of 4.21 ppm, with a median of 0.27 ppm. The lowest OEHHA ATL for selenium is 1.0 ppm, with recommended consumption of six or fewer servings per week associated with concentrations above this level. Twelve of the 109 samples (11%) had concentrations above 1.0 ppm. The two highest concentrations were observed in samples from Loveland Reservoir (4.21 ppm) and Lake Casitas (4.19 ppm).
+
+Selenium concentrations were measured in 144 composite samples of prey fish. Concentrations ranged from a minimum of 0.12 ppm to a maximum of 5.42 ppm, with a median of 0.31 ppm. The highest concentration was observed in Lake Casitas: a largemouth bass composite at 5.42 ppm.
+
+```{r}
+#Create figures + captions, as needed
+
+```
+
+## PFAS
+
+Add text summarizing results here! :)
+
+```{r}
+#Create figures + captions, as needed
+
+```
+
 # Discussion and Next Steps
 
+Add text...
+
+-   summarizing big picture findings and monitoring/analysis lessons learned from this Realignment process,
+-   how the Region will use the data to inform TBUs, IR, and anything else
+-   future monitoring already in the works or under consideration, based on needs and priorities identified by the committee
+-   how folks can contribute to or stay informed of future statewide and/or regional monitoring efforts
+
 # References
+
+::: callout-important
+AH will populate this once we have more text populated in intro, methods, and discussion.
+:::
+
+{{< pagebreak >}}
+
+# Appendix 1. Summary of fish and shellfish results for the San Diego Region Realignment: composites or means at each location.
+
+```{r}
+#Appendix 1: Results Summary Table
+
+#Create table(s) #Do we want a table for fish and separate table for shellfish?
+```
+
+{{< pagebreak >}}
+
+# Appendix 2. Mercury in individual fish from the San Diego Region Realignment.
+
+```{r}
+#Appendix 2: Mercury Summary Table
+```
+
+{{< pagebreak >}}
+
+# Appendix 3. PFAS in individual fish and shellfish from the San Diego Region Realignment.
+
+```{r}
+#Appendix 3: PFAS Summary Table
+```
