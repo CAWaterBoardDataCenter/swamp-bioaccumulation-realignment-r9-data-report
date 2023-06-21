@@ -274,6 +274,15 @@ Add text summarizing results here! :)
 
 ```
 
+## Cyano
+
+Add text summarizing results here! :)
+
+```{r} #Create figures + captions, as needed}
+```
+
+Note: water samples were collected at all freshwater locations (n=4; collected by MPSL) and those coastal sites where oysters and/or mussels were collected (n=tbd; collected by R9 SWAMP).
+
 # Discussion and Next Steps
 
 Add text...
