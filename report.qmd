@@ -2,6 +2,7 @@
 format:
   docx:
     toc: false
+    reference-doc: swamp-report-template.docx
 ---
 
 ![](images/wb-swamp-logos.png){fig-alt="Logo for the State Water Resources Control Board and Regional Water Quality Control Boards (Water Boards) (left) and Surface Water Ambient Monitoring Program (SWAMP) (right)" fig-align="center" width="4.87in"}
@@ -278,8 +279,7 @@ Add text summarizing results here! :)
 
 Add text summarizing results here! :)
 
-```{r} #Create figures + captions, as needed}
-```
+`{r} #Create figures + captions, as needed}`
 
 Note: water samples were collected at all freshwater locations (n=4; collected by MPSL) and those coastal sites where oysters and/or mussels were collected (n=tbd; collected by R9 SWAMP).
 
