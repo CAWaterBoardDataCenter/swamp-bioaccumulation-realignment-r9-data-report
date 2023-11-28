@@ -26,16 +26,16 @@ HG=read.csv("Hg4thresholds.csv")
 
 
 ####Hg_By_Waterbody####
-Chollas=subset(HG,Waterbody=="Chollas Reservoir")
-Cuyamaca=subset(HG,Waterbody=="Cuyamaca Reservoir")
-Dana=subset(HG,Waterbody=="Dana Point Harbor")
-IB=subset(HG,Waterbody=="Imperial Beach Pier")
-Sweetwater=subset(HG,Waterbody=="Lower Sweetwater River")
-MB=subset(HG,Waterbody=="Mission Bay")
-OH=subset(HG,Waterbody=="Oceanside Harbor")
-OP=subset(HG,Waterbody=="Oceanside Pier")
-SDR=subset(HG,Waterbody=="San Diego River")
-SDB=subset(HG,Waterbody=="San Diego Bay")
+ChollasHg=subset(HG,Waterbody=="Chollas Reservoir")
+CuyamacaHg=subset(HG,Waterbody=="Cuyamaca Reservoir")
+DanaHg=subset(HG,Waterbody=="Dana Point Harbor")
+IBHg=subset(HG,Waterbody=="Imperial Beach Pier")
+SweetwaterHg=subset(HG,Waterbody=="Lower Sweetwater River")
+MBHg=subset(HG,Waterbody=="Mission Bay")
+OHHg=subset(HG,Waterbody=="Oceanside Harbor")
+OPHg=subset(HG,Waterbody=="Oceanside Pier")
+SDRHg=subset(HG,Waterbody=="San Diego River")
+SDBHg=subset(HG,Waterbody=="San Diego Bay")
 
 
 
@@ -62,7 +62,7 @@ write.csv(Max,"HGmax.csv")
 
 ##Hg##
 
-ggplot(Chollas,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(ChollasHg,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -81,9 +81,9 @@ ggplot(Chollas,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
   
-ggsave("Chollas_Hg.png",dpi=600)
+ggsave("Chollas_Lake_Mercury.png",dpi=600)
 
-ggplot(Cuyamaca,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(CuyamacaHg,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -102,9 +102,9 @@ ggplot(Cuyamaca,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("Cuyamaca_Hg.png",dpi=600)
+ggsave("Cuyamaca_Lake_Mercury.png",dpi=600)
 
-ggplot(Dana,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(DanaHg,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -123,9 +123,9 @@ ggplot(Dana,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("Dana_Hg.png",dpi=600)
+ggsave("Dana_Point_Harbor_Mercury.png",dpi=600)
 
-ggplot(IB,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(IBHg,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -144,9 +144,9 @@ ggplot(IB,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("IB_Hg.png",dpi=600)
+ggsave("Imperial_Beach_Pier_Mercury.png",dpi=600)
 
-ggplot(Sweetwater,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(SweetwaterHg,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -165,9 +165,9 @@ ggplot(Sweetwater,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("Sweetwater_Hg.png",dpi=600)
+ggsave("Lower_Sweetwater_River_Mercury.png",dpi=600)
 
-ggplot(MB,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(MBHg,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -186,9 +186,9 @@ ggplot(MB,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("MB_Hg.png",dpi=600)
+ggsave("Mission_Bay_Mercury.png",dpi=600)
 
-ggplot(OH,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(OHHg,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -207,9 +207,9 @@ ggplot(OH,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("OH_Hg.png",dpi=600)
+ggsave("Oceanside_Harbor_Mercury.png",dpi=600)
 
-ggplot(OP,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(OPHg,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -228,9 +228,9 @@ ggplot(OP,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("OP_Hg.png",dpi=600)
+ggsave("Oceanside_Pier_Mercury.png",dpi=600)
 
-ggplot(SDR,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(SDRHg,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -249,9 +249,9 @@ ggplot(SDR,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("SDR.png",dpi=600)
+ggsave("San_Diego_River_Mercury.png",dpi=600)
 
-ggplot(SDB,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(SDBHg,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -270,7 +270,7 @@ ggplot(SDB,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("SDB_Hg.png",dpi=600)
+ggsave("San_Diego_Bay_Mercury.png",dpi=600)
   
   
 ###Stats###  
@@ -298,16 +298,16 @@ SE=read.csv("Se4thresholds.csv")
 
 ##############Se_By_Waterbody##################
 ################################################
-Chollas=subset(SE,Waterbody=="Chollas Reservoir")
-Cuyamaca=subset(SE,Waterbody=="Cuyamaca Reservoir")
-Dana=subset(SE,Waterbody=="Dana Point Harbor")
-IB=subset(SE,Waterbody=="Imperial Beach Pier")
-Sweetwater=subset(SE,Waterbody=="Lower Sweetwater River")
-MB=subset(SE,Waterbody=="Mission Bay")
-OH=subset(SE,Waterbody=="Oceanside Harbor")
-OP=subset(SE,Waterbody=="Oceanside Pier")
-SDR=subset(SE,Waterbody=="San Diego River")
-SDB=subset(SE,Waterbody=="San Diego Bay")
+ChollasSe=subset(SE,Waterbody=="Chollas Reservoir")
+CuyamacaSe=subset(SE,Waterbody=="Cuyamaca Reservoir")
+DanaSe=subset(SE,Waterbody=="Dana Point Harbor")
+IBSe=subset(SE,Waterbody=="Imperial Beach Pier")
+SweetwaterSe=subset(SE,Waterbody=="Lower Sweetwater River")
+MBSe=subset(SE,Waterbody=="Mission Bay")
+OHSe=subset(SE,Waterbody=="Oceanside Harbor")
+OPSe=subset(SE,Waterbody=="Oceanside Pier")
+SDRSe=subset(SE,Waterbody=="San Diego River")
+SDBSe=subset(SE,Waterbody=="San Diego Bay")
 
 
 
@@ -334,7 +334,7 @@ write.csv(Max,"SEmax.csv")
 
 ##Se##
 
-ggplot(Chollas,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(ChollasSe,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -353,9 +353,9 @@ ggplot(Chollas,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("Chollas_Se.png",dpi=600)
+ggsave("Chollas_Lake_Selenium.png",dpi=600)
 
-ggplot(Cuyamaca,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(CuyamacaSe,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -374,9 +374,9 @@ ggplot(Cuyamaca,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("Cuyamaca_Se.png",dpi=600)
+ggsave("Cuyamaca_Lake_Selenium.png",dpi=600)
 
-ggplot(Dana,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(DanaSe,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -395,9 +395,9 @@ ggplot(Dana,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("Dana_Se.png",dpi=600)
+ggsave("Dana_Point_Harbor_Selenium.png",dpi=600)
 
-ggplot(IB,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(IBSe,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -416,9 +416,9 @@ ggplot(IB,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("IB_Se.png",dpi=600)
+ggsave("Imperial_Beach_Pier_Selenium.png",dpi=600)
 
-ggplot(Sweetwater,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(SweetwaterSe,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -437,9 +437,9 @@ ggplot(Sweetwater,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("Sweetwater_Se.png",dpi=600)
+ggsave("Lower_Sweetwater_River_Selenium.png",dpi=600)
 
-ggplot(MB,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(MBSe,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -458,9 +458,9 @@ ggplot(MB,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("MB_Se.png",dpi=600)
+ggsave("Mission_Bay_Selenium.png",dpi=600)
 
-ggplot(OH,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(OHSe,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -479,9 +479,9 @@ ggplot(OH,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("OH_Se.png",dpi=600)
+ggsave("Oceanside_Harbor_Selenium.png",dpi=600)
 
-ggplot(OP,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(OPSe,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -500,9 +500,9 @@ ggplot(OP,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("OP_Se.png",dpi=600)
+ggsave("Oceanside_Pier_Selenium.png",dpi=600)
 
-ggplot(SDR,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(SDRSe,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -521,9 +521,9 @@ ggplot(SDR,aes(x=commonname, y=Result_ww_ppb)) +
   theme(plot.title = element_text(vjust = 4))
 
 
-ggsave("SDR_Se.png",dpi=600)
+ggsave("San_Diego_River_Selenium.png",dpi=600)
 
-ggplot(SDB,aes(x=commonname, y=Result_ww_ppb)) +
+ggplot(SDBSe,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=3, color="blue") +
   coord_flip() +
@@ -541,4 +541,4 @@ ggplot(SDB,aes(x=commonname, y=Result_ww_ppb)) +
   ggtitle("San Diego Bay")+
   theme(plot.title = element_text(vjust = 4))
 
-ggsave("SDB_Se.png",dpi=600)
+ggsave("San_Diego_Bay_Selenium.png",dpi=600)
