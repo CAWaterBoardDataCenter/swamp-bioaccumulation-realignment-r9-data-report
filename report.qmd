@@ -28,7 +28,7 @@ This Data Report was prepared by the Surface Water Ambient Monitoring Program (S
 -   Lisa Cumper, Jamul Indian Village
 -   Shasta Gaughen and Heidi Brow, Pala Band of Mission Indians
 -   Kelcey Stricker and Tiffany Wolfe, Pechanga Band of Luiseño Indians
--   Cristina Torres and Arash Afghahi, Viejas Band of Kumeyaay Indians
+-   Sophia Bejarono, Cristina Torres and Arash Afghahi, Viejas Band of Kumeyaay Indians
 -   Sherri Norris, California Indian Environmental Alliance (CIEA)
 -   Jill Sherman-Warne, Native American Environmental Protection Coalition (NAEPC)
 -   José Bravo, Just Transition Alliance
@@ -48,7 +48,7 @@ This Data Report was prepared by the Surface Water Ambient Monitoring Program (S
 -   David Gibson, R9 Executive Officer
 -   Melissa Corona, R9 Tribal Coordinator
 -   Chad Loflen, R9 SWAMP Regional Coordinator
--   Ali Dunn, SWAMP Leader
+-   Ali Dunn, SWAMP Lead
 -   Mike Antos, Realignment Meeting Facilitator, Stantec
 
 {{< pagebreak >}}
@@ -127,39 +127,210 @@ Review list before finalizing and add/remove rows as needed
 
 # Introduction
 
-This document presents a data report for monitoring that took place in 2022/2023 as part of the SWAMP Bioaccumulation Monitoring Program Realignment in the San Diego Region (R9).
+The preservation, enhancement, and restoration of California\'s water resources is vital to the health and well-being of all Californians, California Native American Tribes (tribes), the economy, and the environment for present and future generations. When first established in 2006, the mission of the State Water Resources Control Board and Regional Water Quality Control Boards (Water Boards) [Bioaccumulation Monitoring Program](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring.html) (Program) was to provide statewide monitoring data and information that could be used to:
 
-```{r}
-#Figure 1: Map of Study Area
+-   Assess and contribute to the protection and restoration of fishing and aquatic life beneficial uses that are impacted by the bioaccumulation of pollutants in California\'s waterbodies, and
 
+-   Assess the human health risks associated with the consumption of contaminated fish and shellfish in California\'s freshwater and coastal ecosystems, and use that information to support the development of advisories that would inform consumers of significant health risks associated with the consumption of particular species.
 
-#Caption: Figure 1. Sampling locations for San Diego Region Realignment monitoring.
-```
+The Program has realized several successes, such as establishing comprehensive, statewide bioaccumulation monitoring methodologies and assessments that began to answer the question: "Is it safe to eat fish and shellfish from our waters?", and forming the [Safe to Eat Workgroup](https://mywaterquality.ca.gov/monitoring_council/bioaccumulation_oversight_group/index.html) (STEW; formerly Bioaccumulation Oversight Group \[BOG\]).
+
+Program staff and STEW recognize that the original Program plans were ambitious given their limited resources, and that there are some discrepancies between the Program vision and its current design. While data have been generated and used to inform [fish consumption advisories](https://oehha.ca.gov/fish/advisories) throughout the state, significant data and information gaps remain regarding the question: \"Is it safe to eat fish and shellfish from our waters?\" Particularly important gaps exist for waterbodies or species that are important for subsistence by historically underrepresented communities, as well as Tribal tradition, culture, and subsistence. To address these gaps, the Program implemented a [Realignment process](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/program_realignment.html) within the boundaries of the [San Diego Regional Water Quality Control Board](https://www.waterboards.ca.gov/sandiego/) (San Diego Region) from 2021 - 2023.
+
+A key component of the Program [Statewide Realignment Plan](https://www.waterboards.ca.gov/water_issues/programs/swamp/docs/bioaccumulation_monitoring/bioaccumulation_program_realignment_20201211.pdf) involved conducting targeted sampling in 2022 according to the recommendations of the San Diego Region Realignment Advisory Committee (Committee). Monitoring and analysis priorities were discussed and set by Committee through a series of meetings and are described in the [Monitoring and Analysis Workplan for the San Diego Region Realignment](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/docs/bioaccumulationprogram-realignment-monitoringanalysisworkplan-r9-20211216.pdf) (Dec 2021).
+
+The monitoring and analysis was jointly funded and preformed by the Program and San Diego Region. A description of the monitoring that took place by the Program is provided in the [Cruise Report](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/docs/2023/BioaccumulationProgram_Realignment_CruiseReport_R9_20230307.pdf) (Mar 2023). The San Diego Region also collected invertebrate samples, and a summary of those monitoring efforts will be described here.
+
+This data report presents the methods and analytical results of tissue and water samples that were collected in May - October 2022; a total of ten locations were sampled (Figure 1).
+
+![Figure 1. San Diego Region Realignment sampling locations. Blue dots indicate locations that were sampled; red dots indicate sites that were discussed by the Committee but that we could not prioritize for monitoring due to resource limitations.](figures/Figure1.jpg){width="7in"}
+
+This data report will briefly summarize monitoring and analysis methods and provide a more thorough summary analysis results by sampling location.
 
 # Methods
 
-A detailed description of the methods for sample collection and chemical analysis is provided in the [Monitoring and Analysis Workplan](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/docs/bioaccumulationprogram-realignment-monitoringanalysisworkplan-r9-20211216.pdf) (Monitoring Plan; Dec 2021). The methods are briefly summarized here, with a focus on information specific to the 2022/23 San Deigo Region Realignment effort.
+A detailed description of the methods for sample collection and chemical analysis is provided in the [Monitoring and Analysis Workplan](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/docs/bioaccumulationprogram-realignment-monitoringanalysisworkplan-r9-20211216.pdf) (Dec 2021). Sample collection methods employed during monitoring are also described in the [Cruise Report](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/docs/2023/BioaccumulationProgram_Realignment_CruiseReport_R9_20230307.pdf) (Mar 2023). These sampling and analysis methods are briefly summarized here.
 
 ## Sample Collection
 
-The Monitoring Plan called for collection of fish and shellfish from XX lake or reservoir locations, XX river locations, and XX coastal locations in 2022. XX of these locations were prioritized and were successfully sampled in 2022 (Figure 1). Details of sample collection are provided in the [Cruise Report](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/docs/2023/BioaccumulationProgram_Realignment_CruiseReport_R9_20230307.pdf) (Mar 2023).
+The sampling crews were able to successfully collect fish and shellfish from six coastal locations, two lake or reservoir locations, and two river locations within the San Diego Region (Figure 1, Table 1).
+
++--------------------+---------------------------+------------------------+---------------------------------------------------------------------------------------+
+| Waterbody Type     | Sample Location           | Num. Species Collected | List of Species Collected                                                             |
++====================+===========================+========================+=======================================================================================+
+| Coastal            | Dana Point Harbor & Jetty | 6                      | Surfperch, Jacksmelt, Mackerel, Bonito, Mullet, Oysters                               |
++--------------------+---------------------------+------------------------+---------------------------------------------------------------------------------------+
+| Coastal            | Oceanside Harbor          | 7                      | Surfperch, Croaker(S), Jacksmelt, Bonito, Mackerel, Oysters, Lobster                  |
++--------------------+---------------------------+------------------------+---------------------------------------------------------------------------------------+
+| Coastal            | Oceanside Pier            | 7                      | Surfperch (B), Croaker (S), Croaker (Y), Jacksmelt, Queenfish, Sand Bass (B), Mussels |
++--------------------+---------------------------+------------------------+---------------------------------------------------------------------------------------+
+| Coastal            | Mission Bay Jetty         | 6                      | Croaker(S), Jacksmelt, Bonito, Mackerel, Oysters, Lobster                             |
++--------------------+---------------------------+------------------------+---------------------------------------------------------------------------------------+
+| Coastal            | San Diego Bay             | 7                      | Croaker(S), Jacksmelt, Kelp Bass, Spotted Sand Bass, Oysters, Lobster, Crab           |
++--------------------+---------------------------+------------------------+---------------------------------------------------------------------------------------+
+| Coastal            | Imperial Beach Pier       | 8                      | Surfperch (B), Corbina, Jacksmelt, Queenfish, Mackerel, Sardine, Bonito, Mussels      |
++--------------------+---------------------------+------------------------+---------------------------------------------------------------------------------------+
+| Lake and Reservoir | Cuyamaca Reservoir        | 4                      | Bluegill, Largemouth Bass, Crappie, Carp                                              |
++--------------------+---------------------------+------------------------+---------------------------------------------------------------------------------------+
+| Lake and Reservoir | Chollas Lake              | 4                      | Bluegill, Largemouth Bass, Sunfish, Carp                                              |
++--------------------+---------------------------+------------------------+---------------------------------------------------------------------------------------+
+| River and Stream   | San Diego River           | 4                      | Bluegill, Bullhead, Largemouth Bass, Carp                                             |
++--------------------+---------------------------+------------------------+---------------------------------------------------------------------------------------+
+| River and Stream   | Sweetwater River          | 1                      | Bluegill                                                                              |
++--------------------+---------------------------+------------------------+---------------------------------------------------------------------------------------+
+
+: Table 1. Summary of locations and species sampled from May - October 2022.
+
+::: callout-note
+## Need CL Feedback
+
+Table 1: Please to spell out ( ) next to species names in table or caption
+
+Paragraph below: Please describe invertebrate sample collection method(s)
+:::
+
+Sample locations were accessed by boat, when possible, or from shore. Fish were collected
+by electrofisher boat (freshwater only), hook-and-line, trawling and other nets (beach seine, gill net, cast net). Invertebrate samples were collected by \[ XYZ \].
 
 ## Sample Preparation and Analytical Methods
 
 Samples were processed and distributed to the analytical laboratories as described in the Monitoring Plan by personnel at Moss Landing Marine Laboratories in Moss Landing, CA.
 
-Mercury and selenium were analyzed by Moss Landing Marine Laboratories. Mercury and selenium were analyzed following the method presented in the Monitoring Plan.
+Mercury and selenium levels in tissue were analyzed by Moss Landing Marine Laboratories; organics levels in tissue (PCBs, PFAS) were analyzed by Babcock and SGS-Axys Laboratories; cyanotoxin levels in water samples were analyzed by Bend Genetics Laboratories (Table 2).
 
-PCBs and legacy pesticides were analyzed by Babcock and SGS-Axys (LOCATION). Organochlorine pesticides were analyzed according to USEPA Method 8081A, "Organochlorine Pesticides by Gas Chromatography." PCBs were analyzed according to USEPA Method 8082, "Polychlorinated Biphenyls (PCBs) by Gas Chromatography."
+::: callout-note
+## AH to automate table 2 once all data are received with code
+:::
 
-Analytes included in the monitoring, detection limits, as well as numbers of observations and frequencies of detection and reporting, are provided in Table 1. All concentrations are reported on a wet weight basis. Moisture data are available, along with the entire dataset, via the [California Environmental Data Exchange Network](http://www.ceden.org/) (CEDEN).
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Sample Location           | Species Common Name | Sample Type        | Metals (Mercury, Selenium, Aresnic) | OC Pestacides | PCB | PBDE | PFAS | Cyanotoxin |
++===========================+=====================+====================+=====================================+===============+=====+======+======+============+
+| Dana Point Harbor & Jetty | Surfperch           | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Dana Point Harbor & Jetty | Jacksmelt           | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Dana Point Harbor & Jetty | Mackerel            | Tissue, whole body | Y                                   | Y             | Y   | Y    | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Dana Point Harbor & Jetty | Bonito              | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Dana Point Harbor & Jetty | Mullet              | Tissue, whole body | Y                                   |               |     |      |      |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Dana Point Harbor & Jetty | Oysters             | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Dana Point Harbor & Jetty | Lobster             | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Harbor          | Surfperch           | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Harbor          | Croaker(S)          | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Harbor          | Jacksmelt           | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Harbor          | Bonito              | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Harbor          | Mackerel            | Tissue, whole body | Y                                   | Y             | Y   | Y    | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Harbor          | Oysters             | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Harbor          | Lobster             | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Pier            | Surfperch (B)       | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Pier            | Croaker (S)         | Tissue, whole body | Y                                   | Y             | Y   | Y    | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Pier            | Croaker (Y)         | Tissue, whole body | Y                                   |               |     |      |      |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Pier            | Jacksmelt           | Tissue, whole body | Y                                   |               |     |      |      |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Pier            | Queenfish           | Tissue, whole body | Y                                   |               |     |      |      |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Pier            | Sand Bass (B)       | Tissue, whole body | Y                                   |               |     |      |      | Y          |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Oceanside Pier            | Mussels             | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Mission Bay Jetty         | Croaker(S)          | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Mission Bay Jetty         | Jacksmelt           | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Mission Bay Jetty         | Bonito              | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Mission Bay Jetty         | Mackerel            | Tissue, whole body | Y                                   | Y             | Y   | Y    | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Mission Bay Jetty         | Oysters             | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Mission Bay Jetty         | Lobster             | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| San Diego Bay             | Croaker(S)          | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| San Diego Bay             | Jacksmelt           | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| San Diego Bay             | Kelp Bass           | Tissue, whole body | Y                                   |               |     |      |      |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| San Diego Bay             | Spotted Sand Bass   | Tissue, whole body | Y                                   | Y             | Y   | Y    | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| San Diego Bay             | Oysters             | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| San Diego Bay             | Lobster             | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| San Diego Bay             | Crab                | Tissue, whole body | Y                                   |               |     |      |      |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Imperial Beach Pier       | Surfperch (B)       | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Imperial Beach Pier       | Corbina             | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Imperial Beach Pier       | Corbina             | Tissue, fillet     | Y                                   |               |     |      |      |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Imperial Beach Pier       | Jacksmelt           | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Imperial Beach Pier       | Queenfish           | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Imperial Beach Pier       | Mackerel            | Tissue, whole body | Y                                   | Y             | Y   | Y    | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Imperial Beach Pier       | Sardine             | Tissue, whole body | Y                                   |               |     |      |      |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Imperial Beach Pier       | Bonito              | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Imperial Beach Pier       | Mussels             | Tissue, whole body | Y                                   | Y             | Y   |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Cuyamaca Reservoir        | Bluegill            | Tissue, whole body | Y                                   |               |     |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Cuyamaca Reservoir        | Largemouth Bass     | Tissue, whole body | Y                                   | Y             | Y   | Y    | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Cuyamaca Reservoir        | Crappie             | Tissue, whole body | Y                                   |               |     |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Cuyamaca Reservoir        | Carp                | Tissue, whole body | Y                                   |               |     |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Cuyamaca Reservoir        | N/A                 | Water              |                                     |               |     |      |      | Y          |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Chollas Lake              | Bluegill            | Tissue, whole body | Y                                   |               |     |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Chollas Lake              | Largemouth Bass     | Tissue, whole body | Y                                   | Y             | Y   | Y    | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Chollas Lake              | Sunfish             | Tissue, whole body | Y                                   |               |     |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Chollas Lake              | Carp                | Tissue, whole body | Y                                   |               |     |      |      |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Chollas Lake              | N/A                 | Water              |                                     |               |     |      |      | Y          |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| San Diego River           | Bluegill            | Tissue, whole body | Y                                   |               |     |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| San Diego River           | Bullhead            | Tissue, whole body | Y                                   |               |     |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| San Diego River           | Largemouth Bass     | Tissue, whole body | Y                                   | Y             | Y   | Y    | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| San Diego River           | Carp                | Tissue, whole body | Y                                   |               |     |      | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| San Diego River           | N/A                 | Water              |                                     |               |     |      |      | Y          |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Sweetwater River          | Bluegill            |                    | Y                                   | Y             | Y   | Y    | Y    |            |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
+| Sweetwater River          | N/A                 | Water              |                                     |               |     |      |      | Y          |
++---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
 
-```{r}
-#Table 1: Analytes summary 
+**LEFT OFF HERE!! Next - figure out structure of Appendix 1**
 
+\[A1 Caption - Appendix 1. Analytes included in the 2019 lakes sampling, detection limits, number of observations, and frequencies of detection and reporting.\]
 
-#Caption: Table 1. Analytes included in the 2019 lakes sampling, detection limits, number of observations, and frequencies of detection and reporting.
-```
+Analytes (e.g., Mercury, PFAS) included in the sample, detection limits, as well as numbers of observations and frequencies of detection and reporting, are provided in Appendix 1. All concentrations are reported on a wet weight basis. Moisture data are available, along with the entire dataset, via the [California Environmental Data Exchange Network](http://www.ceden.org/) (CEDEN).
 
 ## Data Management
 
