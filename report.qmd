@@ -72,6 +72,8 @@ Review list before finalizing and add/remove rows as needed
 +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | **Acronym or Abbreviation** | **Definition**                                                                                                                    |
 +=============================+===================================================================================================================================+
+| Bend                        | [Bend]{.underline} Genetics Laboratories                                                                                          |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | CDPH                        | [C]{.underline}alifornia [D]{.underline}epartment of [P]{.underline}ublic [H]{.underline}ealth                                    |
 +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | CEDEN                       | [C]{.underline}alifornia [E]{.underline}nvironmental [D]{.underline}ata [E]{.underline}xchange [N]{.underline}etwork              |
@@ -79,6 +81,8 @@ Review list before finalizing and add/remove rows as needed
 | Committee                   | San Diego Region Realignment Advisory [Committee]{.underline}                                                                     |
 +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | DIT                         | Water Board's [D]{.underline}ivision of [I]{.underline}nformation [T]{.underline}echnology                                        |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| MLML                        | [M]{.underline}oss [L]{.underline}anding [M]{.underline}arine [L]{.underline}aboratories                                          |
 +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | OC pesticides               | Organochlorine ([OC]{.underline}) [pesticides]{.underline}                                                                        |
 +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
@@ -110,6 +114,8 @@ Review list before finalizing and add/remove rows as needed
 +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | San Diego Region            | [San]{.underline} [Diego]{.underline} [Region]{.underline}al Water Quality Control Board                                          |
 +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+| SGS-Axys                    | [SGS-Axys]{.underline} Laboratories                                                                                               |
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | State Board                 | California [State]{.underline} Water Resources Control [Board]{.underline}                                                        |
 +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | STEW                        | [S]{.underline}afe [t]{.underline}o [E]{.underline}at [W]{.underline}orkgroup                                                     |
@@ -127,21 +133,21 @@ Review list before finalizing and add/remove rows as needed
 
 # Introduction
 
-The preservation, enhancement, and restoration of California\'s water resources is vital to the health and well-being of all Californians, California Native American Tribes (tribes), the economy, and the environment for present and future generations. When first established in 2006, the mission of the State Water Resources Control Board and Regional Water Quality Control Boards (Water Boards) [Bioaccumulation Monitoring Program](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring.html) (Program) was to provide statewide monitoring data and information that could be used to:
+The preservation, enhancement, and restoration of California's water resources is vital to the health and well-being of all Californians, California Native American Tribes (tribes), the economy, and the environment for present and future generations. When first established in 2006, the mission of the State Water Resources Control Board and Regional Water Quality Control Boards (Water Boards) [Bioaccumulation Monitoring Program](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring.html) (Program) was to provide statewide monitoring data and information that could be used to:
 
--   Assess and contribute to the protection and restoration of fishing and aquatic life beneficial uses that are impacted by the bioaccumulation of pollutants in California\'s waterbodies, and
+-   Assess and contribute to the protection and restoration of fishing and aquatic life beneficial uses that are impacted by the bioaccumulation of pollutants in California's waterbodies, and
 
--   Assess the human health risks associated with the consumption of contaminated fish and shellfish in California\'s freshwater and coastal ecosystems, and use that information to support the development of advisories that would inform consumers of significant health risks associated with the consumption of particular species.
+-   Assess the human health risks associated with the consumption of contaminated fish and shellfish in California's freshwater and coastal ecosystems, and use that information to support the development of advisories that would inform consumers of significant health risks associated with the consumption of particular species.
 
 The Program has realized several successes, such as establishing comprehensive, statewide bioaccumulation monitoring methodologies and assessments that began to answer the question: "Is it safe to eat fish and shellfish from our waters?", and forming the [Safe to Eat Workgroup](https://mywaterquality.ca.gov/monitoring_council/bioaccumulation_oversight_group/index.html) (STEW; formerly Bioaccumulation Oversight Group \[BOG\]).
 
-Program staff and STEW recognize that the original Program plans were ambitious given their limited resources, and that there are some discrepancies between the Program vision and its current design. While data have been generated and used to inform [fish consumption advisories](https://oehha.ca.gov/fish/advisories) throughout the state, significant data and information gaps remain regarding the question: \"Is it safe to eat fish and shellfish from our waters?\" Particularly important gaps exist for waterbodies or species that are important for subsistence by historically underrepresented communities, as well as Tribal tradition, culture, and subsistence. To address these gaps, the Program implemented a [Realignment process](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/program_realignment.html) within the boundaries of the [San Diego Regional Water Quality Control Board](https://www.waterboards.ca.gov/sandiego/) (San Diego Region) from 2021 - 2023.
+Program staff and STEW recognize that the original Program plans were ambitious given their limited resources, and that there are some discrepancies between the Program vision and its current design. While data have been generated and used to inform [fish consumption advisories](https://oehha.ca.gov/fish/advisories) throughout the state, significant data and information gaps remain regarding the question: "Is it safe to eat fish and shellfish from our waters?" Particularly important gaps exist for waterbodies or species that are important for subsistence by historically underrepresented communities, as well as Tribal tradition, culture, and subsistence. To address these gaps, the Program implemented a [Realignment process](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/program_realignment.html) within the boundaries of the [San Diego Regional Water Quality Control Board](https://www.waterboards.ca.gov/sandiego/) (San Diego Region) from 2021 - 2023.
 
 A key component of the Program [Statewide Realignment Plan](https://www.waterboards.ca.gov/water_issues/programs/swamp/docs/bioaccumulation_monitoring/bioaccumulation_program_realignment_20201211.pdf) involved conducting targeted sampling in 2022 according to the recommendations of the San Diego Region Realignment Advisory Committee (Committee). Monitoring and analysis priorities were discussed and set by Committee through a series of meetings and are described in the [Monitoring and Analysis Workplan for the San Diego Region Realignment](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/docs/bioaccumulationprogram-realignment-monitoringanalysisworkplan-r9-20211216.pdf) (Dec 2021).
 
 The monitoring and analysis was jointly funded and preformed by the Program and San Diego Region. A description of the monitoring that took place by the Program is provided in the [Cruise Report](https://www.waterboards.ca.gov/water_issues/programs/swamp/bioaccumulation_monitoring/docs/2023/BioaccumulationProgram_Realignment_CruiseReport_R9_20230307.pdf) (Mar 2023). The San Diego Region also collected invertebrate samples, and a summary of those monitoring efforts will be described here.
 
-This data report presents the methods and analytical results of tissue and water samples that were collected in May - October 2022; a total of ten locations were sampled (Figure 1).
+This data report presents the methods and analytical results of tissue and water samples that were collected in May - October 2022, and invertebrate samples that were collected in `XYZ - XYZ`; a total of ten locations were sampled (Figure 1).
 
 ![Figure 1. San Diego Region Realignment sampling locations. Blue dots indicate locations that were sampled; red dots indicate sites that were discussed by the Committee but that we could not prioritize for monitoring due to resource limitations.](figures/Figure1.jpg){width="7in"}
 
@@ -153,7 +159,7 @@ A detailed description of the methods for sample collection and chemical analysi
 
 ## Sample Collection
 
-The sampling crews were able to successfully collect fish and shellfish from six coastal locations, two lake or reservoir locations, and two river locations within the San Diego Region (Figure 1, Table 1).
+Sampling crews were able to successfully collect fish and shellfish from six coastal locations, two lake or reservoir locations, and two river locations within the San Diego Region (Figure 1, Table 1).
 
 +--------------------+---------------------------+------------------------+---------------------------------------------------------------------------------------+
 | Waterbody Type     | Sample Location           | Num. Species Collected | List of Species Collected                                                             |
@@ -189,14 +195,11 @@ Table 1: Please to spell out ( ) next to species names in table or caption
 Paragraph below: Please describe invertebrate sample collection method(s)
 :::
 
-Sample locations were accessed by boat, when possible, or from shore. Fish were collected
-by electrofisher boat (freshwater only), hook-and-line, trawling and other nets (beach seine, gill net, cast net). Invertebrate samples were collected by \[ XYZ \].
+Sample locations were accessed by boat, when possible, or from shore. Fish were collected by electrofisher boat (freshwater only), hook-and-line, trawling and other nets (beach seine, gill net, cast net). Invertebrate samples were collected by `XYZ`.
 
 ## Sample Preparation and Analytical Methods
 
-Samples were processed and distributed to the analytical laboratories as described in the Monitoring Plan by personnel at Moss Landing Marine Laboratories in Moss Landing, CA.
-
-Mercury and selenium levels in tissue were analyzed by Moss Landing Marine Laboratories; organics levels in tissue (PCBs, PFAS) were analyzed by Babcock and SGS-Axys Laboratories; cyanotoxin levels in water samples were analyzed by Bend Genetics Laboratories (Table 2).
+Fish tissue and water samples were processed and distributed to the analytical laboratories as described in the Monitoring Plan by personnel at Moss Landing Marine Laboratories (MLML) in Moss Landing, CA. Table 2 summarizes which analytes were assessed for each location and species collected.
 
 ::: callout-note
 ## AH to automate table 2 once all data are received with code
@@ -326,17 +329,19 @@ Mercury and selenium levels in tissue were analyzed by Moss Landing Marine Labor
 | Sweetwater River          | N/A                 | Water              |                                     |               |     |      |      | Y          |
 +---------------------------+---------------------+--------------------+-------------------------------------+---------------+-----+------+------+------------+
 
-**LEFT OFF HERE!! Next - figure out structure of Appendix 1**
+: Table 2. Summary of assessed analytes by location and species collected.
 
-\[A1 Caption - Appendix 1. Analytes included in the 2019 lakes sampling, detection limits, number of observations, and frequencies of detection and reporting.\]
+Mercury and selenium levels in tissue were analyzed by MLML; organics levels in tissue (PCBs, PFAS) were analyzed by SGS-Axys Laboratories (SGS-Axys); cyanotoxin levels in water samples were analyzed by Bend Genetics Laboratories (Bend).
 
-Analytes (e.g., Mercury, PFAS) included in the sample, detection limits, as well as numbers of observations and frequencies of detection and reporting, are provided in Appendix 1. All concentrations are reported on a wet weight basis. Moisture data are available, along with the entire dataset, via the [California Environmental Data Exchange Network](http://www.ceden.org/) (CEDEN).
+Analytes (e.g., Mercury, PFAS) included in analyses, detection limits, as well as numbers of observations and frequencies of detection and reporting, are provided in Appendix A. All concentrations are reported on a wet weight basis. Moisture data are available, along with the entire dataset, via the [California Environmental Data Exchange Network](http://www.ceden.org/) (CEDEN).
 
 ## Data Management
 
-The complete dataset for this study includes quality assurance data (quality control samples and field duplicates) and additional ancillary information (specific location information, fish sex, weights, and other information). The complete dataset is available via [CEDEN](http://www.ceden.org/find_data_page.shtml). The data are also available through...
+The complete dataset for this study includes quality assurance data (quality control samples and field duplicates) and additional ancillary information (specific location information, fish sex, weights, and other information). The complete dataset is available via [CEDEN](http://www.ceden.org/find_data_page.shtml), and the [California Open Data Portal](https://data.ca.gov/dataset/surface-water-aquatic-organism-tissue-sample-results). The data can also be explored and downloaded via the [SWAMP Data Dashboard](https://gispublic.waterboards.ca.gov/swamp-data/). For more details on the entire data management cycle for the Program's bioaccumulation monitoring data, see the [General Bioaccumulation Data Use Frequently Asked Questions Webpage](https://cawaterboarddatacenter.github.io/stew-faq/other-faq/data-use-faq.html).
 
 ## Statistical Methods
+
+# **LEFT OFF HERE!!**
 
 The measurement of mercury in individual black bass samples provided a foundation for statistical procedures to adjust for the relationship with fish length. A length of 350 mm has been used for length-adjustment of black bass in past studies (e.g., Davis et al. 2008, Melwani et al. 2009, Davis et al. 2010), and represents the middle of the distribution of legal-sized (\>305 mm, or 12 inches) fish that are commonly caught.
 
@@ -347,6 +352,8 @@ Estimates of length-adjusted means presented for the results in this report are 
 ## Summary of Fish and Shellfish Collected
 
 A total of XX fish and XX shellfish representing XX and XX species, respectively, were collected from XX lakes, rivers, and coastal areas.
+
+In the following sections, we summarize results by analyte and then by each sampling location. A concise tabular summary of the data for each sampling location is provided in Appendix B.
 
 ```{r}
 #Table 2: Species breakdowns
@@ -367,13 +374,15 @@ For the paragraph below this callout:
 Do we want to try developing these tables and posting them on the Open Data Portal and linking to them from here instead of or in addition to providing them as an appendix? I am thinking that if folks want to look at the data themselves, it would be much easier to do so via a csv or xlsx rather via this PDF.
 :::
 
-A concise tabular summary of the data for each sampling location is provided in Appendix 1. Data for mercury analyses on individual fish are provided in Appendix 2. Data for PFAS analyses are provided in Appendix 3.
+Data for mercury analyses on individual fish are provided in Appendix C. Data for PFAS analyses are provided in Appendix D.
 
 Largemouth bass was the primary sport fish species sampled, with 663 fish collected from 36 lakes. The two other black bass species were collected at fewer lakes: 69 spotted bass were collected from four lakes, and 32 smallmouth bass were collected from one lake. Common carp (90 fish from 12 locations) and redear sunfish (59 fish from seven lakes) were the next most widely sampled species after largemouth bass.
 
 Small prey fish were also sampled. A total of 1436 prey fish representing 15 species were collected from the 41 lakes (Figure 2, Table 2b). A concise tabulated summary of the data for each lake is provided in Appendix 2b. The most commonly sampled prey fish species were bluegill (454 fish from 33 locations) and young largemouth bass (408 fish from 29 locations).
 
-## Mercury
+## Results by Analyte
+
+### Mercury
 
 ::: callout-important
 In the lakes report, figures and tables are provided at the end of the report - here I would like to incorporate them into the report, alongside relevant text.
@@ -411,7 +420,7 @@ If tables are too long to do that nicely, let's make them an appendix.
 
 ```
 
-## Organic Contaminants
+### Organic Contaminants
 
 PCBs were analyzed in 23 composite samples from 14 lakes. Seven different species were analyzed. The reported result was not detected (ND) for all the samples.
 
@@ -422,7 +431,7 @@ Legacy pesticides were analyzed in 12 samples, with all ND for dieldrin and sum 
 
 ```
 
-## Selenium
+### Selenium
 
 Selenium was measured primarily so that future risk assessments can consider risks due to combined exposure to mercury and selenium. However, some samples had concentrations at low levels of concern relative to OEHHA advisory tissue levels (ATLs).
 
@@ -435,7 +444,7 @@ Selenium concentrations were measured in 144 composite samples of prey fish. Con
 
 ```
 
-## PFAS
+### PFAS
 
 Add text summarizing results here! :)
 
@@ -444,13 +453,35 @@ Add text summarizing results here! :)
 
 ```
 
-## Cyano
+### Cyano
 
 Add text summarizing results here! :)
 
 `{r} #Create figures + captions, as needed}`
 
 Note: water samples were collected at all freshwater locations (n=4; collected by MPSL) and those coastal sites where oysters and/or mussels were collected (n=tbd; collected by R9 SWAMP).
+
+## Results by Sampling Location
+
+### Dana Point Harbor & Jetty
+
+### Oceanside Harbor
+
+### Oceanside Pier
+
+### Mission Bay Jetty
+
+### San Diego Bay
+
+### Imperial Beach Pier
+
+### Cuyamaca Reservoir
+
+### Chollas Lake
+
+### San Diego River
+
+### Sweetwater River
 
 # Discussion and Next Steps
 
@@ -469,7 +500,29 @@ AH will populate this once we have more text populated in intro, methods, and di
 
 {{< pagebreak >}}
 
-# Appendix 1. Summary of fish and shellfish results for the San Diego Region Realignment: composites or means at each location.
+# Appendix A. Analytes included in the 2019 lakes sampling, detection limits, number of observations, and frequencies of detection and reporting.
+
++------------+---------------+----------+------------------------+---------+------------------------+----------------------------+----------------------------+
+| Laboratory | Analyte Type  | Analyte  | Method Detection Limit | Unit    | Number of Observations | Frequency of Detection (%) | Frequency of Reporting (%) |
++============+===============+==========+========================+=========+========================+============================+============================+
+| MLML       | Metals        | Mercury  | 0.0030                 | 𝜇g/g ww |                        |                            |                            |
++------------+---------------+----------+------------------------+---------+------------------------+----------------------------+----------------------------+
+| MLML       | Metals        | Selenium | 0.2300                 | 𝜇g/g ww |                        |                            |                            |
++------------+---------------+----------+------------------------+---------+------------------------+----------------------------+----------------------------+
+| MLML       | Metals        | Aresnic  |                        | 𝜇g/g ww |                        |                            |                            |
++------------+---------------+----------+------------------------+---------+------------------------+----------------------------+----------------------------+
+|            | OC Pestacides |          |                        |         |                        |                            |                            |
++------------+---------------+----------+------------------------+---------+------------------------+----------------------------+----------------------------+
+|            | PBDEs         |          |                        |         |                        |                            |                            |
++------------+---------------+----------+------------------------+---------+------------------------+----------------------------+----------------------------+
+| SGS-Axys   | PCB           |          |                        |         |                        |                            |                            |
++------------+---------------+----------+------------------------+---------+------------------------+----------------------------+----------------------------+
+| SGS-Axys   | PFAS          |          |                        |         |                        |                            |                            |
++------------+---------------+----------+------------------------+---------+------------------------+----------------------------+----------------------------+
+| Bend       | Cyanotoxin    |          |                        |         |                        |                            |                            |
++------------+---------------+----------+------------------------+---------+------------------------+----------------------------+----------------------------+
+
+# Appendix ?. Summary of fish and shellfish results for the San Diego Region Realignment: composites or means at each location.
 
 ```{r}
 #Appendix 1: Results Summary Table
