@@ -1,0 +1,153 @@
+"","stationname","commonname","AnalyteName","avg","med","sd","min","max","n"
+"1","Chollas Reservoir","Bluegill","Arsenic",90,90,0,90,90,5
+"2","Chollas Reservoir","Bluegill","Mercury",23,23,0,23,23,5
+"3","Chollas Reservoir","Bluegill","Selenium",400,400,0,400,400,5
+"4","Chollas Reservoir","Largemouth Bass","Arsenic",80,80,0,80,80,5
+"5","Chollas Reservoir","Largemouth Bass","Mercury",112.842105263158,118,48.4667849126191,35,204,19
+"6","Chollas Reservoir","Largemouth Bass","Selenium",560,560,0,560,560,5
+"7","Chollas Reservoir","Redear Sunfish","Arsenic",70,70,0,70,70,5
+"8","Chollas Reservoir","Redear Sunfish","Mercury",9,9,0,9,9,5
+"9","Chollas Reservoir","Redear Sunfish","Selenium",490,490,0,490,490,5
+"10","Cuyamaca Reservoir","Black Crappie","Arsenic",70,70,0,70,70,5
+"11","Cuyamaca Reservoir","Black Crappie","Mercury",49,49,0,49,49,5
+"12","Cuyamaca Reservoir","Black Crappie","Selenium",370,370,0,370,370,5
+"13","Cuyamaca Reservoir","Bluegill","Arsenic",NA,NA,NA,NA,NA,15
+"14","Cuyamaca Reservoir","Bluegill","Mercury",11.2,11,0.763762615825973,10,12,25
+"15","Cuyamaca Reservoir","Bluegill","Selenium",390,370,29.277002188456,370,430,15
+"16","Cuyamaca Reservoir","Common Carp","Arsenic",80,80,0,80,80,10
+"17","Cuyamaca Reservoir","Common Carp","Mercury",23,23,0,23,23,5
+"18","Cuyamaca Reservoir","Common Carp","Selenium",285,285,5.2704627669473,280,290,10
+"19","Cuyamaca Reservoir","Green Sunfish","Arsenic",60,60,0,60,60,10
+"20","Cuyamaca Reservoir","Green Sunfish","Mercury",9,9,0,9,9,10
+"21","Cuyamaca Reservoir","Green Sunfish","Selenium",400,400,0,400,400,10
+"22","Cuyamaca Reservoir","Largemouth Bass","Arsenic",NA,NA,NA,NA,NA,15
+"23","Cuyamaca Reservoir","Largemouth Bass","Mercury",354.7,321.5,296.2895276761,21,811,20
+"24","Cuyamaca Reservoir","Largemouth Bass","Selenium",314,290,41.1963937395357,290,380,15
+"25","Cuyamaca Reservoir","Rainbow Trout","Mercury",23,23,NA,23,23,1
+"26","Dana Point Harbor","Chub Mackerel","Arsenic",1210,1210,0,1210,1210,5
+"27","Dana Point Harbor","Chub Mackerel","Mercury",42,42,0,42,42,5
+"28","Dana Point Harbor","Chub Mackerel","Selenium",900,900,0,900,900,5
+"29","Dana Point Harbor","Jacksmelt","Arsenic",1270,1270,0,1270,1270,5
+"30","Dana Point Harbor","Jacksmelt","Mercury",36,36,0,36,36,5
+"31","Dana Point Harbor","Jacksmelt","Selenium",350,350,0,350,350,5
+"32","Dana Point Harbor","Pacific Bonito","Arsenic",675,675,5.47722557505166,670,680,6
+"33","Dana Point Harbor","Pacific Bonito","Mercury",22,22,0,22,22,3
+"34","Dana Point Harbor","Pacific Bonito","Selenium",540,540,10.9544511501033,530,550,6
+"35","Dana Point Harbor","Pacific Oyster","Arsenic",8250,8250,NA,8250,8250,1
+"36","Dana Point Harbor","Pacific Oyster","Mercury",5.074,5.074,NA,5.074,5.074,1
+"37","Dana Point Harbor","Pacific Oyster","Selenium",509.76,509.76,NA,509.76,509.76,1
+"38","Dana Point Harbor","Striped Mullet","Arsenic",1020,1020,0,1020,1020,5
+"39","Dana Point Harbor","Striped Mullet","Mercury",5,5,0,5,5,5
+"40","Dana Point Harbor","Striped Mullet","Selenium",440,440,0,440,440,5
+"41","Dana Point Harbor","Walleye Surfperch","Arsenic",2270,2270,0,2270,2270,5
+"42","Dana Point Harbor","Walleye Surfperch","Mercury",29,29,0,29,29,5
+"43","Dana Point Harbor","Walleye Surfperch","Selenium",320,320,0,320,320,5
+"44","Imperial Beach Pier","Barred Surfperch","Arsenic",1830,1830,0,1830,1830,5
+"45","Imperial Beach Pier","Barred Surfperch","Mercury",21,21,0,21,21,5
+"46","Imperial Beach Pier","Barred Surfperch","Selenium",320,320,0,320,320,5
+"47","Imperial Beach Pier","California Corbina","Arsenic",915,915,110.679718105893,810,1020,10
+"48","Imperial Beach Pier","California Corbina","Mercury",25,25,0.845154254728517,24,26,15
+"49","Imperial Beach Pier","California Corbina","Selenium",NA,NA,NA,NA,NA,10
+"50","Imperial Beach Pier","California Mussel","Arsenic",7270,7270,NA,7270,7270,1
+"51","Imperial Beach Pier","California Mussel","Mercury",4.984,4.984,NA,4.984,4.984,1
+"52","Imperial Beach Pier","California Mussel","Selenium",480.6,480.6,NA,480.6,480.6,1
+"53","Imperial Beach Pier","Chub Mackerel","Arsenic",1270,1270,0,1270,1270,2
+"54","Imperial Beach Pier","Chub Mackerel","Mercury",45,45,0,45,45,2
+"55","Imperial Beach Pier","Chub Mackerel","Selenium",1040,1040,0,1040,1040,2
+"56","Imperial Beach Pier","Jacksmelt","Arsenic",1550,1550,0,1550,1550,2
+"57","Imperial Beach Pier","Jacksmelt","Mercury",15,15,0,15,15,2
+"58","Imperial Beach Pier","Jacksmelt","Selenium",370,370,0,370,370,2
+"59","Imperial Beach Pier","Pacific Bonito","Arsenic",610,610,0,610,610,10
+"60","Imperial Beach Pier","Pacific Bonito","Mercury",31,31,0,31,31,5
+"61","Imperial Beach Pier","Pacific Bonito","Selenium",395,395,5.2704627669473,390,400,10
+"62","Imperial Beach Pier","Pacific Sardine","Arsenic",2190,2190,0,2190,2190,5
+"63","Imperial Beach Pier","Pacific Sardine","Mercury",11,11,0,11,11,5
+"64","Imperial Beach Pier","Pacific Sardine","Selenium",430,430,0,430,430,5
+"65","Imperial Beach Pier","Queenfish","Arsenic",870,870,0,870,870,5
+"66","Imperial Beach Pier","Queenfish","Mercury",41,41,0,41,41,5
+"67","Imperial Beach Pier","Queenfish","Selenium",400,400,0,400,400,5
+"68","Lower Sweetwater River","Bluegill","Arsenic",590,590,558.669053296414,60,1120,10
+"69","Lower Sweetwater River","Bluegill","Mercury",43,43,8.43274042711568,35,51,10
+"70","Lower Sweetwater River","Bluegill","Selenium",430,430,94.8683298050514,340,520,10
+"71","Mission Bay","California Spiny Lobster","Mercury",27,27,0,27,27,5
+"72","Mission Bay","Chub Mackerel","Arsenic",880,880,0,880,880,5
+"73","Mission Bay","Chub Mackerel","Mercury",48,48,0,48,48,5
+"74","Mission Bay","Chub Mackerel","Selenium",890,890,0,890,890,5
+"75","Mission Bay","Jacksmelt","Arsenic",1610,1610,0,1610,1610,5
+"76","Mission Bay","Jacksmelt","Mercury",28,28,0,28,28,5
+"77","Mission Bay","Jacksmelt","Selenium",340,340,0,340,340,5
+"78","Mission Bay","Pacific Bonito","Arsenic",440,440,NA,440,440,1
+"79","Mission Bay","Pacific Bonito","Mercury",29,29,NA,29,29,1
+"80","Mission Bay","Pacific Bonito","Selenium",360,360,NA,360,360,1
+"81","Mission Bay","Pacific Oyster","Arsenic",5920,5920,NA,5920,5920,1
+"82","Mission Bay","Pacific Oyster","Mercury",6.75,6.75,NA,6.75,6.75,1
+"83","Mission Bay","Pacific Oyster","Selenium",306.6,306.6,NA,306.6,306.6,1
+"84","Mission Bay","Spotfin Croaker","Arsenic",1090,1090,0,1090,1090,5
+"85","Mission Bay","Spotfin Croaker","Mercury",83,83,0,83,83,5
+"86","Mission Bay","Spotfin Croaker","Selenium",560,560,0,560,560,5
+"87","Oceanside Harbor","Barred Surfperch","Arsenic",2150,2150,0,2150,2150,5
+"88","Oceanside Harbor","Barred Surfperch","Mercury",25,25,0,25,25,5
+"89","Oceanside Harbor","Barred Surfperch","Selenium",290,290,0,290,290,5
+"90","Oceanside Harbor","California Spiny Lobster","Mercury",68,68,0,68,68,4
+"91","Oceanside Harbor","Chub Mackerel","Arsenic",1050,1050,0,1050,1050,5
+"92","Oceanside Harbor","Chub Mackerel","Mercury",57,57,0,57,57,5
+"93","Oceanside Harbor","Chub Mackerel","Selenium",710,710,0,710,710,5
+"94","Oceanside Harbor","Jacksmelt","Arsenic",2160,2160,0,2160,2160,5
+"95","Oceanside Harbor","Jacksmelt","Mercury",63,63,0,63,63,5
+"96","Oceanside Harbor","Jacksmelt","Selenium",300,300,0,300,300,5
+"97","Oceanside Harbor","Pacific Bonito","Arsenic",420,420,0,420,420,2
+"98","Oceanside Harbor","Pacific Bonito","Mercury",32,32,0,32,32,2
+"99","Oceanside Harbor","Pacific Bonito","Selenium",470,470,0,470,470,2
+"100","Oceanside Harbor","Pacific Oyster","Arsenic",11900,11900,NA,11900,11900,1
+"101","Oceanside Harbor","Pacific Oyster","Mercury",11.655,11.655,1.33643181644257,10.71,12.6,2
+"102","Oceanside Harbor","Pacific Oyster","Selenium",479.85,479.85,NA,479.85,479.85,1
+"103","Oceanside Harbor","Spotfin Croaker","Arsenic",1090,1090,0,1090,1090,5
+"104","Oceanside Harbor","Spotfin Croaker","Mercury",41,41,0,41,41,5
+"105","Oceanside Harbor","Spotfin Croaker","Selenium",560,560,0,560,560,5
+"106","Oceanside Pier","Barred Sand Bass","Arsenic",1120,1120,0,1120,1120,2
+"107","Oceanside Pier","Barred Sand Bass","Mercury",50,50,0,50,50,2
+"108","Oceanside Pier","Barred Sand Bass","Selenium",370,370,0,370,370,2
+"109","Oceanside Pier","Barred Surfperch","Arsenic",1230,1230,0,1230,1230,7
+"110","Oceanside Pier","Barred Surfperch","Mercury",25,25,0,25,25,7
+"111","Oceanside Pier","Barred Surfperch","Selenium",360,360,0,360,360,7
+"112","Oceanside Pier","California Mussel","Arsenic",9640,9640,14.142135623731,9630,9650,2
+"113","Oceanside Pier","California Mussel","Mercury",3.128,3.128,NA,3.128,3.128,1
+"114","Oceanside Pier","California Mussel","Selenium",545.75,545.75,15.6977705423412,534.65,556.85,2
+"115","Oceanside Pier","Jacksmelt","Arsenic",880,880,0,880,880,2
+"116","Oceanside Pier","Jacksmelt","Mercury",13,13,0,13,13,2
+"117","Oceanside Pier","Jacksmelt","Selenium",320,320,0,320,320,2
+"118","Oceanside Pier","Queenfish","Arsenic",570,570,0,570,570,2
+"119","Oceanside Pier","Queenfish","Mercury",35,35,0,35,35,2
+"120","Oceanside Pier","Queenfish","Selenium",330,330,0,330,330,2
+"121","Oceanside Pier","Spotfin Croaker","Arsenic",NA,NA,NA,NA,NA,10
+"122","Oceanside Pier","Spotfin Croaker","Mercury",71.5,71.5,16.3384345775366,56,87,10
+"123","Oceanside Pier","Spotfin Croaker","Selenium",1070,1070,748.405712906516,360,1780,10
+"124","Oceanside Pier","Yellowfin Croaker","Arsenic",510,510,NA,510,510,1
+"125","Oceanside Pier","Yellowfin Croaker","Mercury",23,23,NA,23,23,1
+"126","Oceanside Pier","Yellowfin Croaker","Selenium",290,290,NA,290,290,1
+"127","San Diego Bay","California Spiny Lobster","Mercury",68,68,3.20713490294909,65,71,8
+"128","San Diego Bay","Graceful Rock Crab","Mercury",23,23,0,23,23,6
+"129","San Diego Bay","Jack Mackerel","Arsenic",760,760,0,760,760,5
+"130","San Diego Bay","Jack Mackerel","Mercury",22,22,0,22,22,5
+"131","San Diego Bay","Jack Mackerel","Selenium",480,480,0,480,480,5
+"132","San Diego Bay","Pacific Oyster","Arsenic",5200,5200,NA,5200,5200,1
+"133","San Diego Bay","Pacific Oyster","Mercury",8.265,8.265,NA,8.265,8.265,1
+"134","San Diego Bay","Pacific Oyster","Selenium",534.668,534.668,NA,534.668,534.668,1
+"135","San Diego Bay","Spotfin Croaker","Arsenic",570,570,0,570,570,5
+"136","San Diego Bay","Spotfin Croaker","Mercury",152,152,0,152,152,5
+"137","San Diego Bay","Spotfin Croaker","Selenium",360,360,0,360,360,5
+"138","San Diego Bay","Spotted Sand Bass","Arsenic",940,940,0,940,940,5
+"139","San Diego Bay","Spotted Sand Bass","Mercury",151.5,123.5,69.9902590625036,96,305,12
+"140","San Diego Bay","Spotted Sand Bass","Selenium",400,400,0,400,400,5
+"141","San Diego River","Bluegill","Arsenic",85,85,5.47722557505166,80,90,6
+"142","San Diego River","Bluegill","Mercury",32,32,0,32,32,3
+"143","San Diego River","Bluegill","Selenium",800,800,21.9089023002066,780,820,6
+"144","San Diego River","Brown Bullhead","Arsenic",NA,NA,NA,NA,NA,4
+"145","San Diego River","Brown Bullhead","Mercury",47,47,0,47,47,4
+"146","San Diego River","Brown Bullhead","Selenium",390,390,0,390,390,4
+"147","San Diego River","Common Carp","Arsenic",883.333333333333,1290,637.766937577252,60,1300,6
+"148","San Diego River","Common Carp","Mercury",34,18,26.351470547201,16,68,6
+"149","San Diego River","Common Carp","Selenium",3120,4260,1891.36987392736,680,4420,6
+"150","San Diego River","Largemouth Bass","Arsenic",NA,NA,NA,NA,NA,2
+"151","San Diego River","Largemouth Bass","Mercury",73,73,1.15470053837925,72,74,4
+"152","San Diego River","Largemouth Bass","Selenium",670,670,0,670,670,2

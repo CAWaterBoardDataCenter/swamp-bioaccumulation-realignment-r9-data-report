@@ -1,3 +1,5 @@
+# Load Libraries ----------------------------------------------------------
+library(here)
 library(vegan)
 library(ggplot2)
 library(vegan3d)
@@ -16,16 +18,15 @@ library(tidyverse)
 library(hrbrthemes)
 library(kableExtra)
 library(patchwork)
-library("ggthemes")
+library(ggthemes)
 
 
-#####HG DATA######
+# HG Data -----------------------------------------------------------------
 
-HG=read.csv("Hg4thresholds.csv")
+##Read in data####
+HG=read.csv(here("data","Hg4thresholds.csv"))
 
-
-
-####Hg_By_Waterbody####
+##Subset_By_Waterbody####
 ChollasHg=subset(HG,Waterbody=="Chollas Reservoir")
 CuyamacaHg=subset(HG,Waterbody=="Cuyamaca Reservoir")
 DanaHg=subset(HG,Waterbody=="Dana Point Harbor")
@@ -37,12 +38,7 @@ OPHg=subset(HG,Waterbody=="Oceanside Pier")
 SDRHg=subset(HG,Waterbody=="San Diego River")
 SDBHg=subset(HG,Waterbody=="San Diego Bay")
 
-
-
-#########General_Hg####################
-#################################
-
-
+##Summary Stats####
 Means=HG%>%group_by(Waterbody)%>%summarise(avg=mean(Result_ww_ppb))
 SD=HG%>%group_by(Waterbody)%>%summarise(sd=sd(Result_ww_ppb))
 Min=HG%>%group_by(Waterbody)%>%summarise(min=min(Result_ww_ppb))
@@ -53,14 +49,13 @@ SD=HG%>%group_by(Station_species)%>%summarise(sd=sd(Result_ww_ppb))
 Min=HG%>%group_by(Station_species)%>%summarise(min=min(Result_ww_ppb))
 Max=HG%>%group_by(Station_species)%>%summarise(max=max(Result_ww_ppb))
 
+write.csv(Means,here("data_output","HGmeans.csv"))
+write.csv(SD,here("data_output","HGsd.csv"))
+write.csv(Min,here("data_output","HGmin.csv"))
+write.csv(Max,here("data_output","HGmax.csv"))
 
-write.csv(Means,"HGmeans.csv")
-write.csv(SD,"HGsd.csv")
-write.csv(Min,"HGmin.csv")
-write.csv(Max,"HGmax.csv")
 
-
-##Hg##
+##Plots####
 
 ggplot(ChollasHg,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
@@ -273,7 +268,7 @@ ggplot(SDBHg,aes(x=commonname, y=Result_ww_ppb)) +
 ggsave("San_Diego_Bay_Mercury.png",dpi=600)
   
   
-###Stats###  
+##Stats####
 t.test(Hg_total$Result,mu=70, alternative = "less")
 wilcox.test(Hg_total$Result,mu=70, alternative = "less")
 
@@ -283,21 +278,13 @@ wilcox.test(Hg_total$Result,mu=150, alternative = "less")
 t.test(Hg_total$Result,mu=220, alternative = "less")
 wilcox.test(Hg_total$Result,mu=220, alternative = "less")
 
-##########################################
-#########################################
-######################################
-##############################
-####SE Data##################
-##############################
-#####################################
-########################################
-##############################################
 
+# SE Data -----------------------------------------------------------------
+
+##Read in data####
 SE=read.csv("Se4thresholds.csv")
 
-
-##############Se_By_Waterbody##################
-################################################
+##Subset_By_Waterbody####
 ChollasSe=subset(SE,Waterbody=="Chollas Reservoir")
 CuyamacaSe=subset(SE,Waterbody=="Cuyamaca Reservoir")
 DanaSe=subset(SE,Waterbody=="Dana Point Harbor")
@@ -311,10 +298,7 @@ SDBSe=subset(SE,Waterbody=="San Diego Bay")
 
 
 
-#########General_Se####################
-#################################
-
-
+##Summary Stats####
 Means=SE%>%group_by(Waterbody)%>%summarise(avg=mean(Result_ww_ppb))
 SD=SE%>%group_by(Waterbody)%>%summarise(sd=sd(Result_ww_ppb))
 Min=SE%>%group_by(Waterbody)%>%summarise(min=min(Result_ww_ppb))
@@ -332,7 +316,7 @@ write.csv(Min,"SEmin.csv")
 write.csv(Max,"SEmax.csv")
 
 
-##Se##
+##Plots####
 
 ggplot(ChollasSe,aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +

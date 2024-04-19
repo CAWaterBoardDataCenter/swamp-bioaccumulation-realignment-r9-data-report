@@ -1,0 +1,52 @@
+"","stationname","organismgroup","AnalyteName","avg","med","sd","min","max","n"
+"1","Chollas Reservoir","Fish","Arsenic",80,80,8.45154254728517,70,90,15
+"2","Chollas Reservoir","Fish","Mercury",79.448275862069,75,61.0085393360731,9,204,29
+"3","Chollas Reservoir","Fish","Selenium",483.333333333333,490,67.7881855136874,400,560,15
+"4","Cuyamaca Reservoir","Fish","Arsenic",NA,NA,NA,NA,NA,55
+"5","Cuyamaca Reservoir","Fish","Mercury",118.893939393939,12,224.306872818185,9,811,66
+"6","Cuyamaca Reservoir","Fish","Selenium",350.181818181818,370,52.4754231395044,280,430,55
+"7","Dana Point Harbor","Bivalves","Arsenic",8250,8250,NA,8250,8250,1
+"8","Dana Point Harbor","Bivalves","Mercury",5.074,5.074,NA,5.074,5.074,1
+"9","Dana Point Harbor","Bivalves","Selenium",509.76,509.76,NA,509.76,509.76,1
+"10","Dana Point Harbor","Fish","Arsenic",1265.38461538462,1210,546.049307438299,670,2270,26
+"11","Dana Point Harbor","Fish","Mercury",27.2173913043478,29,13.5578106362721,5,42,23
+"12","Dana Point Harbor","Fish","Selenium",511.153846153846,440,209.71078986217,320,900,26
+"13","Imperial Beach Pier","Bivalves","Arsenic",7270,7270,NA,7270,7270,1
+"14","Imperial Beach Pier","Bivalves","Mercury",4.984,4.984,NA,4.984,4.984,1
+"15","Imperial Beach Pier","Bivalves","Selenium",480.6,480.6,NA,480.6,480.6,1
+"16","Imperial Beach Pier","Fish","Arsenic",1162.5641025641,870,562.726997232499,610,2190,39
+"17","Imperial Beach Pier","Fish","Mercury",26.025641025641,25,9.58202038767668,11,45,39
+"18","Imperial Beach Pier","Fish","Selenium",NA,NA,NA,NA,NA,39
+"19","Lower Sweetwater River","Fish","Arsenic",590,590,558.669053296414,60,1120,10
+"20","Lower Sweetwater River","Fish","Mercury",43,43,8.43274042711568,35,51,10
+"21","Lower Sweetwater River","Fish","Selenium",430,430,94.8683298050514,340,520,10
+"22","Mission Bay","Bivalves","Arsenic",5920,5920,NA,5920,5920,1
+"23","Mission Bay","Bivalves","Mercury",6.75,6.75,NA,6.75,6.75,1
+"24","Mission Bay","Bivalves","Selenium",306.6,306.6,NA,306.6,306.6,1
+"25","Mission Bay","Crustacean","Mercury",27,27,0,27,27,5
+"26","Mission Bay","Fish","Arsenic",1146.25,1090,360.034720547894,440,1610,16
+"27","Mission Bay","Fish","Mercury",51.5,48,23.5088635766739,28,83,16
+"28","Mission Bay","Fish","Selenium",581.875,560,233.644138238761,340,890,16
+"29","Oceanside Harbor","Bivalves","Arsenic",11900,11900,NA,11900,11900,1
+"30","Oceanside Harbor","Bivalves","Mercury",11.655,11.655,1.33643181644257,10.71,12.6,2
+"31","Oceanside Harbor","Bivalves","Selenium",479.85,479.85,NA,479.85,479.85,1
+"32","Oceanside Harbor","Crustacean","Mercury",68,68,0,68,68,4
+"33","Oceanside Harbor","Fish","Arsenic",1504.09090909091,1090,635.30764269431,420,2160,22
+"34","Oceanside Harbor","Fish","Mercury",45.1818181818182,41,15.0511393766982,25,63,22
+"35","Oceanside Harbor","Fish","Selenium",465.454545454545,470,173.828795705574,290,710,22
+"36","Oceanside Pier","Bivalves","Arsenic",9640,9640,14.142135623731,9630,9650,2
+"37","Oceanside Pier","Bivalves","Mercury",3.128,3.128,NA,3.128,3.128,1
+"38","Oceanside Pier","Bivalves","Selenium",545.75,545.75,15.6977705423412,534.65,556.85,2
+"39","Oceanside Pier","Fish","Arsenic",NA,NA,NA,NA,NA,24
+"40","Oceanside Pier","Fish","Mercury",46.2083333333333,42.5,25.5138141042245,13,87,24
+"41","Oceanside Pier","Fish","Selenium",647.916666666667,360,593.53750965067,290,1780,24
+"42","San Diego Bay","Bivalves","Arsenic",5200,5200,NA,5200,5200,1
+"43","San Diego Bay","Bivalves","Mercury",8.265,8.265,NA,8.265,8.265,1
+"44","San Diego Bay","Bivalves","Selenium",534.668,534.668,NA,534.668,534.668,1
+"45","San Diego Bay","Crustacean","Mercury",48.7142857142857,65,23.2293864663791,23,71,14
+"46","San Diego Bay","Fish","Arsenic",756.666666666667,760,156.372570971961,570,940,15
+"47","San Diego Bay","Fish","Mercury",122.181818181818,123.5,75.2226133449348,22,305,22
+"48","San Diego Bay","Fish","Selenium",413.333333333333,400,51.6397779494322,360,480,15
+"49","San Diego River","Fish","Arsenic",NA,NA,NA,NA,NA,18
+"50","San Diego River","Fish","Mercury",45.8823529411765,47,22.1469025851844,16,74,17
+"51","San Diego River","Fish","Selenium",1467.77777777778,780,1587.87151486272,390,4420,18
