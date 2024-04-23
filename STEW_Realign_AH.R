@@ -65,20 +65,28 @@ metals$stationname <- gsub("San Diego Bay, Baywide", "San Diego Bay",
                           gsub("San Diego Bay at G Street Chula Vista", "San Diego Bay",
                                     metals$stationname)))
 
-## add Station_OrgGrp_Analyte column  ####
+## add waterbody_type column ####
 metals <- within(metals,  
-                 Station_OrgGrp_Analyte <- paste(stationname, 
-                                              organismgroup, 
-                                              AnalyteName, 
-                                              sep="_"))
+                 waterbody_type <- ifelse(stationname == "Chollas Reservoir" | 
+                                          stationname == "Cuyamaca Reservoir"|
+                                          stationname == "Lower Sweetwater River" |
+                                          stationname == "San Diego River",
+                                          "Reservoir-River", "Coastal"))
+
+## add Station_OrgGrp_Analyte column  ####
+#metals <- within(metals,  
+#                 Station_OrgGrp_Analyte <- paste(stationname, 
+#                                              organismgroup, 
+#                                              AnalyteName, 
+#                                              sep="_"))
 
 
 ## add Station_species_Analyte column  ####
-metals <- within(metals,  
-                 Station_Spp_Analyte <- paste(stationname, 
-                                              commonname, 
-                                              AnalyteName, 
-                                              sep="_"))
+#metals <- within(metals,  
+#                 Station_Spp_Analyte <- paste(stationname, 
+#                                              commonname, 
+#                                              AnalyteName, 
+#                                              sep="_"))
 
 ## subset by waterbody ####
 metals_Chollas    =subset(metals,stationname=="Chollas Reservoir")
@@ -125,14 +133,14 @@ write.csv(Station_Spp_Analyte_Stats, here("data_output","Stat_Station_Spp_Analyt
 # Plots by analyte & waterbody ------------------------------------------------------
 
 ## create list of metals datasets ####
-metals_list <- c("metals_Chollas", "metals_Cuyamaca", "metals_Dana",
-                 "metals_IB", "metals_Sweetwater", "metals_MB",
-                 "metals_OH", "metals_OP", "metals_SDR", "metals_SDB")
+#metals_list <- c("metals_Chollas", "metals_Cuyamaca", "metals_Dana",
+#                 "metals_IB", "metals_Sweetwater", "metals_MB",
+#                 "metals_OH", "metals_OP", "metals_SDR", "metals_SDB")
 
 ## create list of waterbody names ####
-waterbodies <- c("Chollas Reservoir", "Cuyamaca Reservoir","Dana Point Harbor",
-                 "Imperial Beach Pier","Lower Sweetwater River","Mission Bay",
-                 "Oceanside Harbor","Oceanside Pier","San Diego River","San Diego Bay")
+#waterbodies <- c("Chollas Reservoir", "Cuyamaca Reservoir","Dana Point Harbor",
+#                 "Imperial Beach Pier","Lower Sweetwater River","Mission Bay",
+#                 "Oceanside Harbor","Oceanside Pier","San Diego River","San Diego Bay")
 
 
 ggplot(metals_Chollas,aes(x=commonname, y=Result_ww_ppb)) +
@@ -158,7 +166,7 @@ ggplot(metals_Chollas,aes(x=commonname, y=Result_ww_ppb)) +
 #ggsave("Chollas_Lake_Mercury.png",dpi=600)
 
 
-ggplot(subset(metals, AnalyteName=="Mercury"),
+ggplot(subset(metals, AnalyteName=="Mercury" & waterbody_type=="Reservoir-River"),
        aes(x=commonname, y=Result_ww_ppb)) +
   geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
   geom_point(size=2, color="blue") +
@@ -168,10 +176,39 @@ ggplot(subset(metals, AnalyteName=="Mercury"),
   geom_hline(yintercept = 70,linetype="dotted",color="yellow",lwd=1.5)+
   geom_hline(yintercept = 150,linetype="dashed",color="orange",lwd=1.5)+
   geom_hline(yintercept = 440,linetype="solid",color="red",lwd=1.5)+
-  annotate("text", x=26, y=15, label= as.character(paste("\U2190","3+")))+
-  annotate("text", x=26, y=110, label= "2")+
-  annotate("text", x=26, y=300, label= as.character(paste("\U2190","1 meals/wk","\U2192")))+
-  annotate("text", x=26, y=490, label= as.character(paste("0","\U2192")))+
+  annotate("text", x=8.75, y=15, label= "")+
+  annotate("text", x=8.5, y=15, label= as.character(paste("\U2190","3+")))+
+  annotate("text", x=8.5, y=110, label= "2")+
+  annotate("text", x=8.5, y=300, label= as.character(paste("\U2190","1 meals/wk","\U2192")))+
+  annotate("text", x=8.5, y=490, label= as.character(paste("0","\U2192")))+
+  ylim(c(0,500))+
+  ggtitle("Mercury")+
+  theme(plot.title = element_text(vjust = 2, hjust = 0.5),
+        aspect.ratio = 1,
+        plot.margin = margin(10,0,5,0),
+        axis.ticks.length = unit(0, "pt"),
+        axis.text.x = element_text(vjust=3)) +
+  facet_wrap(~ stationname, nrow = 2)
+
+# not saving correctly - need to fix!
+#ggsave(filename = here("figures","Analyte_Hg_ResRiv.png"), dpi = 600)
+#ggsave(filename = here("figures","Analyte_Hg_ResRiv.png"), width = 1431, height = 748, unit = "in", dpi = 600)
+
+ggplot(subset(metals, AnalyteName=="Mercury" & waterbody_type=="Coastal"),
+       aes(x=commonname, y=Result_ww_ppb)) +
+  geom_segment(aes(x=commonname ,xend=commonname, y=0, yend=Result_ww_ppb), color="blue") +
+  geom_point(size=2, color="blue") +
+  coord_flip() +
+  xlab("") +
+  ylab("Concentration (ww pbb)")+
+  geom_hline(yintercept = 70,linetype="dotted",color="yellow",lwd=1.5)+
+  geom_hline(yintercept = 150,linetype="dashed",color="orange",lwd=1.5)+
+  geom_hline(yintercept = 440,linetype="solid",color="red",lwd=1.5)+
+  annotate("text", x=19.5, y=15, label= "")+
+  annotate("text", x=19, y=15, label= as.character(paste("\U2190","3+")))+
+  annotate("text", x=19, y=110, label= "2")+
+  annotate("text", x=19, y=300, label= as.character(paste("\U2190","1 meals/wk","\U2192")))+
+  annotate("text", x=19, y=490, label= as.character(paste("0","\U2192")))+
   ylim(c(0,500))+
   ggtitle("Mercury")+
   theme(plot.title = element_text(vjust = 2, hjust = 0.5),
@@ -181,6 +218,4 @@ ggplot(subset(metals, AnalyteName=="Mercury"),
         axis.text.x = element_text(vjust=3)) +
   facet_wrap(~ stationname, nrow = 2)
 
-# not saving correctly - need to fix!
-#ggsave(filename = here("figures","Analyte_Hg.png"), width = 1431, height = 748, unit = "px", dpi = 600)
-
+ggsave(filename = here("figures","Analyte_Hg_Coast.png"), dpi = 600)
